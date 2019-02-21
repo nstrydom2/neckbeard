@@ -1,2 +1,2 @@
 # neckbeard
-An GIF meme generator.
+A GIF meme generator.
