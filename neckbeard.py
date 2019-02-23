@@ -4,7 +4,7 @@ class NeckBeard():
     def __init__(self):
         pass
 
-    # Generate a gif meme with text on the top
+    # Generate a gif meme with text
     # parameters:
     #   start_time/end_time format = (4,11.4)
     #   text_postion = tuple ex) ('center', 'bottom')
