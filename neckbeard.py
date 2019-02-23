@@ -6,7 +6,7 @@ class NeckBeard():
 
     # Generate a gif meme with text on the top
     # parameters:
-    #   start_time/end_time format = 4,11.4
+    #   start_time/end_time format = (4,11.4)
     #   text_postion = tuple ex) ('center', 'bottom')
     def generate_gif(self, vid_path, start_time=None, end_time=None, out='./NEW_MEME.gif', resize=1.0,
                      text=None, text_position=None, text_size=45.0, text_font='Impact', text_color='white'):
