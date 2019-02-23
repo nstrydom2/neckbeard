@@ -8,12 +8,16 @@ class NeckBeard():
         with open(pic_path) as in_file:
             pass
 
-    def generate_gif(self):
-        clip = (VideoFileClip(self.trump_vid).subclip((4,10.6), (4,11.4)).resize(0.45))
+    # Generate a gif
+    # parameters:
+    #   start_time/end_time format = 4,11.4
+    #   text_postion = tuple ex) ('center', 'bottom')
+    def generate_gif(self, start_time, end_time, text=None, text_position=None):
+        clip = (VideoFileClip(self.trump_vid).subclip((start_time), (4,11.4)).resize(0.45))
 
         text = (TextClip('I\'m just going to leave this here', fontsize=45.0, font='Impact', color='white')
-                .set_position(('center', 'bottom'))
-                .set_duration(clip.duration))
+            .set_position(('center', 'bottom'))
+            .set_duration(clip.duration))
 
         composition = CompositeVideoClip([clip, text])
         composition.write_gif('leave_this_here.gif')
@@ -24,12 +28,11 @@ class NeckBeard():
         clip = (VideoFileClip(vid).subclip((4,10.6), (4,13.4)).resize(0.3))
 
         text = (TextClip('The Priest really takes his job seriously'.upper(), fontsize=18.0, font='Impact', color='white')
-                .set_position(('center', 'top'))
-                .set_duration(clip.duration))
+            .set_position(('center', 'top'))
+            .set_duration(clip.duration))
 
         composition = CompositeVideoClip([clip, text])
         composition.write_gif('priest_small.gif')
-
 
 
 if __name__ == '__main__':

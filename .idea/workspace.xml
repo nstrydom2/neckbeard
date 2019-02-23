@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04cc697a-48e2-4a73-be3b-e83c2bf7a5cf" name="Default Changelist" comment="" />
+    <list default="true" id="04cc697a-48e2-4a73-be3b-e83c2bf7a5cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/neckbeard.py" beforeDir="false" afterPath="$PROJECT_DIR$/neckbeard.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,19 +15,20 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="874" />
+          <entry key="py" value="1114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="874" />
+          <entry key="Python" value="1114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,11 +48,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neckbeard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+            <state relative-caret-position="238">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
               <folding>
-                <marker date="1549623199850" expanded="true" signature="48:53" ph="..." />
-                <marker date="1549623199850" expanded="true" signature="72:167" ph="..." />
+                <marker date="1550882878995" expanded="true" signature="48:53" ph="..." />
+                <marker date="1550882878995" expanded="true" signature="72:167" ph="..." />
               </folding>
             </state>
           </provider>
@@ -64,6 +67,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -77,6 +83,7 @@
     <option name="width" value="1922" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -180,11 +187,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neckbeard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        <state relative-caret-position="238">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
           <folding>
-            <marker date="1549623199850" expanded="true" signature="48:53" ph="..." />
-            <marker date="1549623199850" expanded="true" signature="72:167" ph="..." />
+            <marker date="1550882878995" expanded="true" signature="48:53" ph="..." />
+            <marker date="1550882878995" expanded="true" signature="72:167" ph="..." />
           </folding>
         </state>
       </provider>
