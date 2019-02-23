@@ -36,3 +36,4 @@ if __name__ == '__main__':
     gif_maker = NeckBeard()
 
     gif_maker.generate_baby_gif()
+ 
