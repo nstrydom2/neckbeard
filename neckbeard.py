@@ -34,7 +34,14 @@ if __name__ == '__main__':
 
     gif_maker.generate_gif('/home/ghost/Downloads/luke.gif',
                            out='./funny-meme.gif',
-                           resize=0.6,
-                           text='NOOOOOOO',
-                           text_position=('center', 'bottom'))
+                           resize=0.8,
+                           text='TFW YOU\'RE EXCITED ABOUT OT',
+                           text_position=('center', 'top'),
+                           text_size=40.0)
+
+    gif_maker.generate_gif('./funny-meme.gif',
+                           out='./luke-final.gif',
+                           text='BUT YOU\'RE WORKING 60 HRS',
+                           text_position=('center', 'bottom'),
+                           text_size=40.0)
  
