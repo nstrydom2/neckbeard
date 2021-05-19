@@ -48,16 +48,16 @@ from neckbeard import Neckbeard
 
 # create meme from existing GIF
 nb = Neckbeard('/home/ghost/Pictures/olaf.gif')
-nb.top('tfw you have something important to do')
-nb.bottom('but you don't care')
+nb.top("tfw you have something important to do")
+nb.bottom("but you don't care")
 
 # process the new meme
 nb.tip_fedora()
 
 # create GIF meme from mp4
 nb = Neckbeard(path='/home/ghost/Videos/wACDCVwsgGSS.mp4', start_time=(8, 52.0), end_time=(9, 15.0))
-nb.top('tfw you have something important to do')
-nb.bottom('but you don't care')
+nb.top("tfw you have something important to do")
+nb.bottom("but you don't care")
 
 # process the new meme
 nb.tip_fedora()
