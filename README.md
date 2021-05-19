@@ -1,5 +1,5 @@
 # neckbeard Python library
-Neckbeard is a lightweight and easy to use GIF meme generator library built for Python3 application implementation.
+Neckbeard is a lightweight and easy to use GIF meme generator built for Python3 application implementation.
 
 ## Getting Started
 
@@ -9,8 +9,9 @@ deploy the project on a live system.
 
 ### Prerequisites
 
-Python 3.7+ is required to run this application, other than that there are no
-prerequisites for the project, as the dependencies are included in the repository.
+Python 3.7+ is required to run this application and the Imagemagick application, other 
+than that there are no other prerequisites for the project, as the dependencies are 
+included in the repository.
 
 ### Installing
 
@@ -67,10 +68,10 @@ nb.tip_fedora()
 
 ```bash
 # get help
-anonfile --help
+neckbeard --help
 
 # simple generate a meme
-anonfile --top "tfw you have something important to do" --bottom "but you just dgaf" --file /home/ghost/olaf_playing_nose.gif
+neckbeard --top "tfw you have something important to do" --bottom "but you just dgaf" --file /home/ghost/olaf_playing_nose.gif
 ```
 
 ## Built With
